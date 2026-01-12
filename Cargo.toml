@@ -11,4 +11,9 @@ path = "src/lib.rs"
 name = "pathifier"
 path = "src/main.rs"
 
+[[bin]]
+name = "find-root"
+path = "src/bin/find-root.rs"
+
 [dependencies]
+anyhow = "1"

@@ -1,5 +1,7 @@
 use std::collections::HashSet;
 
+pub mod util;
+
 /// Returns the platform-specific path delimiter
 pub fn get_delimiter() -> &'static str {
     if cfg!(unix) {
