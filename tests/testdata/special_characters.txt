@@ -1,0 +1,1 @@
+/path with spaces:/path-with-dashes:/path_with_underscores:/path.with.dots:/path with spaces

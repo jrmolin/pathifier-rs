@@ -38,6 +38,18 @@ export PATH=$(pathifier "$PATH")
 - **Unix/Linux/macOS**: Uses `:` as delimiter
 - **Windows**: Uses `;` as delimiter
 
+## Testing
+
+Run the test suite with:
+
+```bash
+cargo test
+```
+
+The tests include:
+- **Integration tests** (`tests/integration_test.rs`): End-to-end tests covering deduplication, edge cases (empty input, single entry, unicode paths), and CLI behavior
+- **Test data tests** (`tests/testdata_test.rs`): Data-driven tests using input/expected file pairs from `tests/testdata/`
+
 ## License
 
 MIT
